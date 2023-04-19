@@ -46,4 +46,8 @@ public class PatientController {
     public List<Patient> listPatients(){
         return patientRepository.findAll();
     }
+     @GetMapping("/formPatients")
+    public String formPatient(){
+        return "formPatients";
+     }
 }
