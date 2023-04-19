@@ -38,14 +38,12 @@ public class PatientController {
         return "redirect:/index?page="+page+"&keyword="+keyword;
     }
     @GetMapping("/")
-    public String home() {
+    public String home(){
         return "redirect:/index";
     }
     @GetMapping("/patients")
     @ResponseBody
-    public List<Patient> lisPatients(){
-
+    public List<Patient> listPatients(){
         return patientRepository.findAll();
     }
-
 }
