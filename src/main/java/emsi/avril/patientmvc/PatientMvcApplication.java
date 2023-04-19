@@ -5,11 +5,15 @@ import emsi.avril.patientmvc.repositories.PatientRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+import org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration;
 import org.springframework.context.annotation.Bean;
 
 import java.util.Date;
 
 @SpringBootApplication
+
+
 public class PatientMvcApplication {
 
     public static void main(String[] args) {
