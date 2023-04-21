@@ -2,12 +2,14 @@ package emsi.avril.patientmvc.web;
 
 import emsi.avril.patientmvc.entities.Patient;
 import emsi.avril.patientmvc.repositories.PatientRepository;
+import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -54,8 +56,17 @@ public class PatientController {
     }
 
     @PostMapping(path = "/save")
-    public String save(Model model, Patient patient){
+    public String save(Model model, @Valid Patient patient, BindingResult bindingResult){
+        if(bindingResult.hasErrors()) return "formPatient";
         patientRepository.save(patient);
-        return "formPatient";
+        return "redirect:/index";
+    }
+
+    @GetMapping("/editPatient")
+    public String editPatient(Model model, Long id){
+        Patient patient =patientRepository.findById(id).get();
+        if(patient==null) throw new RuntimeException("Patient Introuvable");
+        model.addAttribute("patient",patient);
+        return "editPatient";
     }
 }
