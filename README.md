@@ -51,7 +51,15 @@ pour gerer les *path* et le type de requete de chaque path avec les methodes eff
  </p>
 3- La formulaire de la modification du patient:
  <p align="center">
-<img src="https://user-images.githubusercontent.com/92638641/234334768-951d9d36-adf9-495b-bb48-cba0c80a8f00.png"/>
+<img src="https://user-images.githubusercontent.com/92638641/234336267-a0db29fb-0582-404a-a60b-71c744336e65.png"/>
  </p>
  
- 
+ 4- Avant la suppression du user *Hamza* avec id *4*: 
+  <p align="center">
+<img src="https://user-images.githubusercontent.com/92638641/234336687-086ed078-c167-4745-be28-2526a29654da.png"/>
+ </p>
+  5- Après la suppression du user *Hamza* avec id *4*: 
+  
+<p align="center">
+<img src="https://user-images.githubusercontent.com/92638641/234336987-d9ec214a-e41d-41fb-93c9-fe7e85dda6c2.png"/>
+ </p>
