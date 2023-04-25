@@ -39,5 +39,19 @@ pour gerer les *path* et le type de requete de chaque path avec les methodes eff
  <p align="center">
  <img src="https://user-images.githubusercontent.com/92638641/234310751-fed9e194-8369-4fff-8ad5-7dbd8bdd9ea3.png"/></p>
  
+- Apres l'execution de l'application dans le browser on aura:
+1- La page de la liste des patients avec les boutons *Edit*  et *Delete* en ajouter la pagination au dessous du tableau :
 
-
+<p align="center">
+<img src="https://user-images.githubusercontent.com/92638641/234333827-c621b6c1-1673-4e36-8e6c-3d59e621a9cd.png"/>
+ </p>
+ 2- La formulaire de la modification du patient:
+ <p align="center">
+<img src="https://user-images.githubusercontent.com/92638641/234334768-951d9d36-adf9-495b-bb48-cba0c80a8f00.png"/>
+ </p>
+3- La formulaire de la modification du patient:
+ <p align="center">
+<img src="https://user-images.githubusercontent.com/92638641/234334768-951d9d36-adf9-495b-bb48-cba0c80a8f00.png"/>
+ </p>
+ 
+ 
