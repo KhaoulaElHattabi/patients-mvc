@@ -31,16 +31,13 @@ pour gerer les *path* et le type de requete de chaque path avec les methodes eff
 <p align="center" ><img src="https://user-images.githubusercontent.com/92638641/234302239-4bd06536-69a5-47e6-9672-bd3a79d6d0d6.png"/></p>
 - Aprés on a ajouter la dependance *layout Thymeleaf* pour ajouter une template dans l'autre, et dans notre projet on doit ajouter la template du navebar dans toute les page , commençons par la creation du template *template1.html*
 <p align="center" ><img src="https://user-images.githubusercontent.com/92638641/234307322-81fb1e06-1dcf-4533-bc9c-4656b9d7244b.png"/></p>
-- Ensuite  ajoute cette template dans l'autre template avec la balise *<section>*
+- Ensuite  ajoute cette template dans l'autre template avec la balise *section*
  en specifiant deja le nom de cette template 
- <p><img src="![image](https://user-images.githubusercontent.com/92638641/234310751-fed9e194-8369-4fff-8ad5-7dbd8bdd9ea3.png
-"/>
- <img src="https://user-images.githubusercontent.com/92638641/234310969-13e1748d-f5d8-4101-98d2-75861cd077d0.png
-"/></p>
+ <p align="center"><img src="https://user-images.githubusercontent.com/92638641/234317536-ee78b466-76d8-4504-bf69-32e8990ff056.png"/></p>
  
  - Aussi on a créé une template pour la formulaire pour l'edit et l'ajout du patient:
  <p align="center">
  <img src="https://user-images.githubusercontent.com/92638641/234310751-fed9e194-8369-4fff-8ad5-7dbd8bdd9ea3.png"/></p>
  
- - Ensuite 
+
 
